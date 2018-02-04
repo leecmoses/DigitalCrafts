@@ -1,0 +1,7 @@
+https://app.schoology.com/page/1444009563
+
+Bash Shell Cheat Sheet
+Quick Cheat Sheet for UNIX & Mac
+A Unix Survival Guide (blog post)
+Settling into Unix (blog post)
+Command Line Fu - blog with advanced CLI tricks

@@ -1,0 +1,5 @@
+https://app.schoology.com/page/1444009557
+
+Please go to The Command Line Crash Course (Appendix A of "Learn Python the Hard Way") and run through exercises 1-15.
+
+They'll help reinforce the concepts and (more importantly) your muscle memory for using the Terminal.

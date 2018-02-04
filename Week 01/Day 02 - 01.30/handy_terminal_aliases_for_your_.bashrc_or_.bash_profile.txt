@@ -1,0 +1,13 @@
+https://app.schoology.com/page/1444009585
+
+handy terminal aliases for your .bashrc or .bash_profile
+
+alias ls='ls -G'
+
+alias ll='ls -l'
+
+alias lf='ls -Fal'
+
+alias lt='ls -lt'
+
+alias more='less'

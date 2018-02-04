@@ -1,0 +1,33 @@
+https://app.schoology.com/page/1444009603
+
+Exercises - Python 102
+=== Hello, you! ===
+Prompt the user for his name using the raw_input function. Example:
+
+name = raw_input('What is your name? ')
+Upon receiving his name, you will say hello to him. Example session:
+    $ python hello.py
+    What is your name? Chris
+    Hello, Chris!
+
+
+=== HELLO, YOU! === 
+Same as the first exercise, but this time print the user's name in ALL CAPS, and also tell them the number of letters in their name. Example session:
+    $ python hello2.py
+    WHAT IS YOUR NAME? Chris
+    HELLO, CHRIS!
+    YOUR NAME HAS 5 LETTERS IN IT! AWESOME!
+
+
+=== Madlib ===
+Prompt the user for the missing words to a Madlib sentence using the raw_input function. You will make up your own Madlib sentence, but here's an example:
+
+____(name)____'s favorite subject in school is ____(subject)____.
+
+With the above given sentence, this is what a user session might look like:
+    $ python madlib.py
+    Please fill in the blanks below:
+    ____(name)____'s favorite subject in school is ____(subject)____.
+    What is name? Marty
+    What is subject? math
+    Marty's favorite subject in school is math.

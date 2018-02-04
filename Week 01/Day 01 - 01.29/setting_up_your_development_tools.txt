@@ -1,0 +1,53 @@
+Setting up your development tools
+There are five primary tools you'll use over the next 16 weeks:
+
+Your Mac and its built-in Terminal app
+The Google Chrome web browser
+The Visual Studio Code text editor
+The Anaconda Python development environment
+The Node.js development environment
+Your Mac and the Terminal
+Over the last decade, the Mac has become a first-class development machine. It has a top-notch user interface and supports all of the best tools for building and designing apps for web, mobile, and desktop. Under the hood, its operating system shares a lot in common with the servers that power the internet. During this bootcamp, you'll learn how to take advantage of this powerful blend of capabilities.
+
+The Terminal app gives you a command line interface, allowing you to interact with your Mac the same way you would a cloud server. There is no need to download anything - it comes pre-installed with every Mac. If you want a more customizable version of Terminal, you can grab a copy of iTerm2 for free.
+
+Installing Chrome
+Install Google Chrome, or update Chrome if you have already installed it. Chrome is the browser of choice for web developers. It provides a fast browsing experience, support for the newest APIs, and cutting-edge developer tools. I'll walk you through a short demo of its capabilities.
+
+Installing Visual Studio Code
+Go to https://code.visualstudio.com, download and install the Visual Studio Code text editor (also known as "VS Code" or just "Code"). VS Code is an open-source text editor created by Microsoft. It has some of the best features of many similar editors like Sublime Text and Atom, but with better support, bi-monthly updates, and a plethora of robust extensions. As with Chrome, I will show you some of the features today, and will continue to do so throughout the course.
+
+Bonus: install the Visual Studio Code command line tool
+Open VS Code and then:
+
+Press Command + Shift + p to open the Command Palette.
+In the Command Palette, type the text "shell command"
+The top result should be "Shell command: Install 'code' command in PATH
+Make sure this result is highlighed and then press Enter.
+You should now see an info window saying that the shell command was successfully installed.
+With the command line tool install, you can open files and folders in VS Code directly from the Terminal.
+
+Installing Anaconda Python
+Anaconda Python (the Python 2.7 version) is a super-charged python environment. It contains useful libraries for everyone from beginners to experts. You will use it instead of the pre-installed python environment that comes with macOS.
+
+Note: if you are running zsh instead of bash, you'll want to add the following to your .zshrc file:
+
+export PATH="~/anaconda2/bin:$PATH"
+After installation, open a new terminal and type the following:
+
+which python
+You should see something like printed to your terminal:
+
+/Users/chrisaquino/anaconda2/bin/python
+You should see something like:
+
+Note: in order to follow the following steps, you will need to install XCode.
+Unfortunately this is a necessity for building and obtaining new versions of Node.js. To install XCode, go to the  menu in the upper left of your Mac. Then choose App Store. In the search bar, enter XCode. It should be one of the very first results. Install XCode. (This will take some amount of time. Do you like coffee? Now is a good time to make some.)
+
+Installing Homebrew
+There are some programs you'll only be able to install via the command line. While that sounds daunting, there's a free helper program you can use to do the heavy lifting for you. It gives you easy access to a whole world of open-source utilities.
+
+Go to the Homebrew website: https://brew.sh/
+Follow the installation step near the top of that page.
+It's going to take a while, so get a cup of coffee -- or better yet! Help the person next to you if they've hit a rough patch.
+Once it's finished, try using it by installing some handy documentation using this command: brew install tldr

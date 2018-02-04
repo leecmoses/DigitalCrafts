@@ -1,0 +1,99 @@
+https://app.schoology.com/course/1367626893/materials/gp/1444009615
+
+# You've learned to work with strings, which can be created with quotes. (What kinds of quotes?)
+
+# When working with numbers, here are 2 kinds
+
+5 # a whole number, otherwise known as an integer
+5.0 # a number with a decimal place, a.k.a. a "float" or floating-point number
+
+# math with numbers:
+
+15 + 50 # addition
+27 - 3 # subtraction
+8 * 9 # multiplication
+4 / 2 # division
+
+# with division, python will automatically round for you:
+
+8 / 3 # this prints the number 2
+
+# to get the precise answer, at least one of the numbers should be floats
+
+8.0 / 3 # prints the number 2.6666666666665
+
+# you get the same result from:
+8 / 3.0
+8.0 / 3.0
+
+# You can substitute a number into a string, too.
+# But, instead of %s, you use the placeholders
+# %d for an integer
+# or %f for a float
+howmany = 12
+print "It's the ship that made the Kessel Run in less than %d parsecs" % howmany
+
+number_of-gigawatts = 1.21
+print " Marty, I'm sorry, but the only power source capable of generating %f 
+gigawatts of electricity is a bolt of lightning." % number_of_gigawatts
+
+# And, of course, if you need to supply more than one placeholder value,
+# you need parentheses and commas
+
+problems = 99
+not_problems = 1
+print "I got %d problems but ipython ain't %s" % (problems, not_problems)
+
+# converting a string to a number
+int("5") # this gives you back the number 5
+
+# why do you want to do this?
+# question: what does this do?
+cats = raw_input("How many cats do you have?")
+# user enters the number 2
+
+# then you try to add 1...
+# In [2]: cats + 1
+# ------------------------------------------------------------
+# TypeError                         Traceback (most recent call last)
+# <ipython-input-5-d11af168c6c4> in <module>()
+# ----> 1 cats + 1
+# TypeError: cannot concatenate 'str' and 'int' objects
+
+# Instead, you could do this:
+
+cats = int(raw_input("How many cats do you have?"))
+cats + 1 # prints 3
+
+# how does this work?
+# On the RHS (Right Hand Side of the assignment),
+# python looks at the innermost parentheses and sees a string.
+# It gives the string to raw_input, which presents it to the user.
+# Let's say the user types the number 3 (an presses the Enter key).
+# Then, raw_input gives the string "3" to int.
+# Now, int does the conversion and what's left on the RHS?
+# The number 3 (not the string).
+
+# some other math operations:
+
+abs(-20) # absolute value of negative 20
+pow(2, 5) # 2 to the 5th power
+round(5.6) # rounds up to 6
+
+# If you want more math functionality, you'll need to ask python for help.
+# To do that, you ask for python's extra math code. (This is also known as a "module")
+import mathmath.floor(5.6) # 5.0
+math.ceil(5.4) # 6.0
+math.sqrt(20736) # 144.0
+print math.pi # prints 3.14159265359
+
+# doing "math" with stringsprint "yeah" * 3 # prints yeah yeah yeah
+
+# You can also compare numbers
+# is 5 less than 10?
+5 < 10 # True
+
+# is 5 great than 10?
+5 < 10 # False
+
+# You don't have to compare number literals, you can use identifers, too
