@@ -1,22 +1,27 @@
 # Exercises - Python 103
 # Below are my solutions to the exercises.
 
-# # === Day of the Week ===
+# === Day of the Week ===
 day = int(input('Day (0-6)? '))
 list_of_days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
-print(f"It's {list_of_days[day]}.")
+if day < 7:
+    print(f"It's {list_of_days[day]}.")
+else:
+    print(f"{day} is not a valid input.")
 
 
-# # === Work or Sleep In? ====
+# === Work or Sleep In? ====
 day = int(input('Day (0-6)? '))
 list_of_days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
 if day == 0 or day == 6:
     print(f"It's {list_of_days[day]}, hit snooze.")
 elif 0 < day < 6:
     print(f"It's {list_of_days[day]}, don't be a bum. Go to work!")
+else:
+    print(f"{day} is not a valid input.")
 
 
-# # === Celsius to Fahrenheit ===
+# === Celsius to Fahrenheit ===
 c = int(input("Temperature in C? "))
 f = c * 1.8 + 32
 print((f"Here in \'Murica, that\'s {f} F."))
@@ -31,8 +36,12 @@ elif service_level == "fair":
     service_level = .15
 elif service_level == "bad":
     service_level = .1
+else:
+    print("Invalid input.")
+
 tip = total_bill * service_level
 total_amount = total_bill + tip
+
 print("Tip amount: $%.2f" % tip)
 print("Total amount: $%.2f" % total_amount)
 
@@ -47,6 +56,9 @@ elif service_level == "fair":
     service_level = .15
 elif service_level == "bad":
     service_level = .1
+else:
+    print("Invalid input.")
+
 tip = total_bill * service_level
 total_amount = total_bill + tip
 per_person = total_amount / split
