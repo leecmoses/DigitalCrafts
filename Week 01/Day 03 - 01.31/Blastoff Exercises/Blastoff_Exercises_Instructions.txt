@@ -1,0 +1,37 @@
+https://app.schoology.com/page/1444009749
+
+Bonus Exercises Python 105
+
+=== Blastoff ===
+Similar to your 1 to 10 counter, write a program that counts down:
+
+    $ python blastoff.py
+    10
+    9
+    8
+    7
+    6
+    5
+    4
+    3
+    2
+    1
+    0
+
+
+=== Blastoff 2=== 
+Modify blastoff so that it prints a custom message once it gets to 0.
+
+
+=== Blastoff 3 === 
+Prompt the user for the number to start counting from.
+
+
+=== Blastoff 4 === 
+Now, make sure the user doesn't enter a number larger than 20
+
+
+=== Blastoff 5 === 
+Make blastoff wait one second before proceeding to the next number.
+
+Hint: check out the docs for the time module.
