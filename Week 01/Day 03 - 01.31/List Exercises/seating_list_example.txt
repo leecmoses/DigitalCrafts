@@ -1,0 +1,44 @@
+yesterday_seat_assignments = [
+    "Moses",
+    "Ken",
+    "Terry",
+    "David",
+    "Nick",
+    "Itzik",
+    "Jaehee",
+    "Illia"
+]
+
+today_seat_assignments = [
+    "Moses",
+    "Ashley",
+    "Ken",
+    "Joel",
+    "Aaron",
+    "Jaehee",
+    "Nick",
+    "Chris"
+]
+
+if today_seat_assignments[0] == yesterday_seat_assignments[0]:
+    print "Hey, %s can't sit here!" % today_seat_assignments[0]
+
+i = 0
+seat_count = len(today_seat_assignments)
+while i < seat_count:
+    if today_seat_assignments[i] == yesterday_seat_assignments[i]:
+        print "Hey, %s can't sit here!" % today_seat_assignments[i]
+    i += 1
+
+for i in range(0, len(today_seat_assignments)):
+
+    if today_seat_assignments[i] == yesterday_seat_assignments[i]:
+        print "Hey, %s can't sit here!" % today_seat_assignments[i]
+    else:
+        print "You're fine to sit here."
+
+for current_seat in today_seat_assignments:
+    # Hmph, we can't use this to compare things from *2* lists.
+    pass
+
+print "We're done!"
