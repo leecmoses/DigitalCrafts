@@ -15,7 +15,7 @@ Explanation:
 The range for i is set to (11, 21) because only numbers 11-20 need to be checked. 
 Numbers 1-10 are not needed because those numbers are factors of the numbers between 11-20. 
 This essentially cuts the computation needed by half. 
-Additionally, the starting value and increment are set to 2520 because any number smaller will not be even divisble by each of the numbers from 11-20.
+Additionally, the starting value and increment are set to 2520 because any number smaller will not be evenly divisble by each of the numbers from 11-20.
 This also reduces the computation required.
 """
 def Div(number):
