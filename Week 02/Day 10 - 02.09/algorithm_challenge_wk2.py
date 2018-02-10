@@ -12,8 +12,8 @@ What is the smallest positive number that is evenly divisible by all of the numb
 Answer: 232,792,560
 
 Explanation: 
-The range for i is set to (11, 21) because only numbers 11-20 are needed to be checked. 
-Numbers 1-10 are not need because those numbers are factors of the numbers between 11-20. 
+The range for i is set to (11, 21) because only numbers 11-20 need to be checked. 
+Numbers 1-10 are not needed because those numbers are factors of the numbers between 11-20. 
 This essentially cuts the computation needed by half. 
 Additionally, the starting value and increment are set to 2520 because any number smaller will not be even divisble by each of the numbers from 11-20.
 This also reduces the computation required.
@@ -42,8 +42,8 @@ Answer: 906609 (993 x 913)
 
 Explanation:
 The slice was used to test whether or not a number is a palindrome.
-The ranges for a and b are in starting from the top of the range and decrementing by 1 to reduce the computation time required.
-The for-loop is get the largest palindrome from the product of two 3-digit numbers. 
+The ranges for a and b start from the top of the range and decrement by 1 to reduce the computation time required.
+The for-loop is used to get the largest palindrome from the product of two 3-digit numbers. 
 """
 def Palin(c):
     return int(str(c)[::-1]) == c
