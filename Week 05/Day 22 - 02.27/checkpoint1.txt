@@ -1,0 +1,123 @@
+Checkpoint 1
+
+Question 1
+Which numbers will be printed?
+
+for i in range(4,6):
+
+     print i
+
+a. 4, 5
+b. 0, 1, 2, 3, 4, 5, 6
+c. 4,6
+d. 4, 5, 6
+
+Question 2
+What datatype is the object below?
+
+L = [1, "abc", "hello", 5]
+
+a. Class
+b. Dictionary
+c. List
+d. Tuple
+
+Question 3
+In order to store values in terms of key and value pairs we use what core datatype?
+
+a. Dictionary
+b. String
+c. List
+d. Class
+
+Question 4
+What is the output of the following?
+
+x = ["ab", "cd"]
+
+for i in x:
+
+   x.append(i.upper())
+
+print x
+
+a. ["ab", "cd"]
+b. ["AB", "CD", "ab", "cd"]
+c. ["ab", "cd", "AB", "CD"]
+d. ["AB", "CD"]
+e. None of the above
+
+Question 5
+What is the output of the following?
+
+x = 50
+
+def func():
+
+     global x
+
+     x = 2
+
+func()
+
+print(x)
+
+   
+
+a. 50
+b. 2
+c. Error
+d. None of the above
+
+Question 6
+Suppose d = {"john": 40, "peter": 50}, if we want to delete the entry for john, which command would we use?
+
+a. del d("john": 40)
+b. del d["john"]
+c. d.delete("john")
+d. d.delete("john":40)
+
+Question 7
+Which of the following statements is true?
+
+a. When you open a file for reading, if the file doesn't exist, an error will occur
+b. When you open a file for writing, if the file doesn't exist, a new file is created
+c. When you open a file for writing (with access mode w+r), if the file exists, the existing file is overwritten by the new text
+d. All of the above
+
+Question 8
+What is the correct syntax of the open() function?
+
+a. file = open(access_mode, file_name)
+b. file = open(file_name, access_mode)
+c. file = open(file_name)
+d. None of the above
+
+Question 9
+If User is a class, how do we make a new User object?
+
+a. User x = new User()
+b. x = User()
+c. x = new User()
+d. User.new(object)
+
+Question 10
+Which of the following best describes inheritance?
+
+Selected: a. A class that takes all the functionality from a parent class and allows you to add moreThis answer is correct.
+b. Allows for implementation of software that is well designed and easily modified
+c. Focuses on variables and passing variables to functions
+d. Means of building instance variables and methods in order to restrict access to certain class members
+
+
+Answer Key
+1. A. 4, 5
+2. C. List
+3. A. Dictionary
+4. E. None of the above
+5. B. 2
+6. B. del d["john"]
+7. D. All of the above
+8. B. file = open(file_name, access_mode)
+9. B. x = User()
+10. A. A class that takes all the functionality from a parent class and allows you to add more.
