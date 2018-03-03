@@ -1,0 +1,21 @@
+Philip Roberts: What the heck is the event loop anyway?
+https://www.youtube.com/watch?v=8aGhZQkoFbQ
+
+the call stack
+one thread == one call stack == one thing at a time
+
+blowing the stack
+function foo () {
+    return foo();
+}
+    * This will keep calling the foo function, which causes a blowing of the stack.
+
+blocking - What happens when things are slow?
+    * solution - asynchronous callbacks
+
+Concurrency & the Event loop
+    * One thing at a time, except not really.
+
+Call Stack, Web APIs, Callback Queue, Eventloop
+
+Render Queue is given a higher priority than the Callback Queue.
